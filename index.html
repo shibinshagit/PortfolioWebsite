@@ -306,9 +306,9 @@
 
     var url = "https://api.whatsapp.com/send?phone=" + countryCode + phoneNumber + "&text=";
 
-    var messageBody = "Hello shibin sha,\niam " + name + "!\n\n";
-    messageBody += "I want to know your availability to work as " + selectedOptions.join(", ") + " Developer in our company" + "\n\n";
-    messageBody += "Message: " + message;
+    var messageBody = "Hello shibin sha , iam " + name + "!";
+    messageBody += " I want to know your availability to work as " + selectedOptions.join(", ") + " Developer in our company " + "\n";
+    messageBody += " Message : " + message;
 
     url += messageBody;
     window.location.href = url;
